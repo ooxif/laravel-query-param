@@ -6,7 +6,7 @@ Treats binary data in a correct way with Laravel's database system (Eloquent).
 What laravel-query-param does
 -----------------------------
 
-Laravel uses PDO & PDOStatement, passes parameters to PDOStatement::execute().
+Laravel uses PDO & PDOStatement, passes parameters to PDOStatement::execute().  
 PDOStatement::execute() treats all parameters as PDO::PARAM_STR which breaks some binary data.
 
 `laravel-query-param` overrides PDOStatement::execute() to set binary data as PDO::PARAM_LOB.
