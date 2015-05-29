@@ -38,7 +38,7 @@ $image = new Image();
 
 // setting/getting 
 $image->data = $lob;
-$image->data; // object(Ooxif\LaravelQueryParam\ParamLob)
+$image->data; // object(Ooxif\LaravelQueryParam\Param\ParamLob)
 $image->data->value() === $lob; // true
 
 // saving
