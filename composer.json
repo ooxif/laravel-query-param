@@ -20,5 +20,8 @@
 		"files": [
 			"src/Ooxif/LaravelQueryParam/helpers.php"
 		]
+	},
+	"suggest": {
+		"ooxif/laravel-spec-schema": "Extends Laravel's Schema/Grammar/Blueprint to describe drivers' specific features"
 	}
 }
